@@ -1,0 +1,14 @@
+part_number,part_name,category,brand,compatible_model,year_start,year_end
+
+BP-ACM-001,Brake Pad Front,Ceramic Brake Pads,AutoCore,Honda Accord,2018,2022
+BP-ACM-002,Brake Pad Front,Ceramic Brake Pads,AutoCore,Honda Accord,2015,2017
+BP-PRM-010,Brake Pad Front,Premium Brake Pads,ProMotion,Honda Accord,2018,2022
+BP-PRM-011,Brake Pad Rear,Premium Brake Pads,ProMotion,Honda Accord,2018,2022
+OF-ACM-100,Oil Filter,Oil Filter,AutoCore,Toyota Camry,2016,2020
+OF-PRM-101,Oil Filter,Oil Filter,ProMotion,Toyota Camry,2018,2023
+AF-ACM-200,Air Filter,Engine Air Filter,AutoCore,Toyota Camry,2015,2019
+AF-ACM-201,Air Filter,Engine Air Filter,AutoCore,Toyota Camry,2020,2023
+SP-PRM-300,Spark Plug,Iridium Spark Plug,ProMotion,Ford F-150,2017,2021
+SP-ACM-301,Spark Plug,Standard Spark Plug,AutoCore,Ford F-150,2015,2018
+BP-ACM-003,Brake Pad Front,Ceramic Brake Pads,AutoCore,Toyota Camry,2018,2022
+BP-PRM-012,Brake Pad Front,Premium Brake Pads,ProMotion,Toyota Camry,2018,2022
