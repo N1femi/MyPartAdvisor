@@ -17,6 +17,8 @@ ___
 ___
 **Dataframe**: 2-Dimensional labeled grid (like excel sheet)
 
+**`df[df[category] >= 20]`**: *Boolean Masking* that acts like a filter returning only rows which the statement is True for.
+
 
 
 
