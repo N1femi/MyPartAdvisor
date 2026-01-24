@@ -14,3 +14,7 @@ A Car Part involves:
 
 
 Planned Stack: Python, Pandas, FastAPI
+
+
+# Continued Plan
+Learn more vectorized searches that reduce lookup time, learn how to compare and rank search results, etc.

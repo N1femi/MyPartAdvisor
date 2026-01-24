@@ -14,6 +14,9 @@ def main():
     else:
         print(matches["part_number"].to_string(index=False))
         print(f"Found {len(matches)} Results.")
+    
+    exactMatches = matches["part_name"].str.lower()
+    print(matches[["part_name", "part_number"]].to_string(index=False))
         
         
     
