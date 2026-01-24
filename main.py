@@ -7,15 +7,13 @@ def main():
     dataset = pd.read_csv(f"{data_path}/parts.csv")
     results = 0
     
-    for index, row in dataset.iterrows():
-        if target_name in row["part_name"]:
-            print(row["part_number"])
-            results += 1
-        
-    if results == 0:
+    matches = dataset[dataset["part_name"].str.contains(target_name, case=False, na=False)]
+    
+    if matches.empty:
         print("No results found..")
     else:
-        print(f"Found {results} Results.")
+        print(matches["part_number"].to_string(index=False))
+        print(f"Found {len(matches)} Results.")
         
         
     
