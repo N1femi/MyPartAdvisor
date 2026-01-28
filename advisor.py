@@ -1,39 +1,21 @@
 import pandas as pd
-import time
 
-# // VARIABLES \\ #
-default_params = {"part_number": "", "part_name": "", "manu_year": "", "part_brand": "Honda", "compat_car": ""}
-
-# // FUNCTIONS \\ #
 def retrieve_data():
     return pd.read_csv("./data/parts.csv")
 
-def initiate_search() -> dict:
-    part_number = input("Part Number? ")
-    part_name = input("Part Name? ")
-    manu_year = input("Year Manufactured? ")
-    part_brand = input("Brand? ")
-    compat_car = input("Compatible Car? ")
-    
-    
-    return {
-        "part_number": part_number,
-        "part_name": part_name,
-        "manu_year": manu_year,
-        "part_brand": part_brand,
-        "compat_car": compat_car
-    }
+def filter_parts(df, query_params):
+    filtered = df.copy()
 
-def process_query(query_params= default_params):
-    data = retrieve_data()
-    print("Processing work: 99/100")
-    
-    time.sleep(1)
-    
-    print("Processing work: WE SHALL EAT TODAY")
-    
-    time.sleep(1)
-    
-    print(data.to_string())
-    
-process_query()
+    if query_params["part_number"]:
+        filtered = filtered[filtered["part_number"].str.contains(query_params["part_number"], case=False, na=False)]
+    if query_params["part_name"]:
+        filtered = filtered[filtered["part_name"].str.contains(query_params["part_name"], case=False, na=False)]
+    if query_params["part_brand"]:
+        filtered = filtered[filtered["brand"].str.contains(query_params["part_brand"], case=False, na=False)]
+    if query_params["compat_car"]:
+        filtered = filtered[filtered["compatible_model"].str.contains(query_params["compat_car"], case=False, na=False)]
+    if query_params["manu_year"]:
+        year = int(query_params["manu_year"])
+        filtered = filtered[(filtered["year_start"] <= year) & (filtered["year_end"] >= year)]
+
+    return filtered.sort_values(["priority", "price"])
