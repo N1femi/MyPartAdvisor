@@ -1,4 +1,5 @@
 import time
+from advisor import basic_results
 
 def main():
     gathering_info = True
@@ -23,14 +24,15 @@ def main():
             
         query_params[key] = currentInput
     
-    print("Done!", query_params)
-        
+    print("Retrieving Results.")
+    time.sleep(0.75)
+    print("Retrieving Results..")
+    time.sleep(0.75)
+    print("Retrieving Results...\n")
+    time.sleep(0.75)
     
-    #part_number = input("\nPart Number? Enter: ")
-        
-        
-        
-        
+    print(basic_results(query_params))
+    
     
     
 if __name__ == "__main__":
