@@ -24,13 +24,6 @@ def main():
             
         query_params[key] = currentInput
     
-    print("\nRetrieving Results.\n")
-    time.sleep(0.75)
-    print("Retrieving Results..\n")
-    time.sleep(0.75)
-    print("Retrieving Results...\n")
-    time.sleep(0.75)
-    
     initial_results = basic_results(query_params)
     
     print(initial_results)
