@@ -1,5 +1,8 @@
 import pandas as pd
 
+def invalid_input(additional_msg):
+    raise ValueError(f"Invalid input, quitting. Verbose: {additional_msg}.")
+
 def retrieve_data():
     return pd.read_csv("./data/parts.csv")
 
@@ -13,6 +16,9 @@ def filter_parts(df, query_params):
     if query_params["part_brand"]:
         filtered = filtered[filtered["brand"].str.contains(query_params["part_brand"], case=False, na=False)]
     if query_params["compat_model"]:
+        if not query_params["compat_model"].isdigit():
+            invalid_input("Compatible model should be a number")
+            
         filtered = filtered[filtered["compatible_model"].str.contains(query_params["compat_model"], case=False, na=False)]
     if query_params["manu_year"]:
         year = int(query_params["manu_year"])
