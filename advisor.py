@@ -24,4 +24,4 @@ def basic_results(query_params):
     raw = retrieve_data()
     filtered_data = filter_parts(raw, query_params)
     
-    return basic_results
+    return filtered_data.to_string(index=False, header=False)
