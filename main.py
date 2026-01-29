@@ -24,9 +24,9 @@ def main():
             
         query_params[key] = currentInput
     
-    print("Retrieving Results.")
+    print("\nRetrieving Results.\n")
     time.sleep(0.75)
-    print("Retrieving Results..")
+    print("Retrieving Results..\n")
     time.sleep(0.75)
     print("Retrieving Results...\n")
     time.sleep(0.75)
@@ -37,6 +37,4 @@ def main():
     
 if __name__ == "__main__":
     main()
-
-
 
