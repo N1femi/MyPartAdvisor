@@ -22,6 +22,9 @@ def main():
         if currentInput == "":
             currentInput = None
             
+        if key == "manu_year":
+            currentInput = int(currentInput)
+            
         query_params[key] = currentInput
     
     initial_results = basic_results(query_params)
