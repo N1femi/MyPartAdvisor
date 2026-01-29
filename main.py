@@ -31,7 +31,15 @@ def main():
     print("Retrieving Results...\n")
     time.sleep(0.75)
     
-    print(basic_results(query_params))
+    initial_results = basic_results(query_params)
+    
+    print(initial_results)
+    
+    affirmed_advancement = input("\n Would you like to further filter? (Yes / No): ")
+    
+    if affirmed_advancement.lower().strip() == 'yes':
+        print("No")
+    
     
     
     
