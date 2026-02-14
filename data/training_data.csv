@@ -1,0 +1,124 @@
+query_text,correct_part_number
+"brake pad honda accord 2016",BP-ACM-001
+"front brake pad accord 2016",BP-ACM-001
+"cheap brake pads accord",BP-ACM-001
+"accord front ceramic brake",BP-ACM-001
+
+"brake pad honda accord 2020",BP-ACM-002
+"front brake accord 2021",BP-ACM-002
+"accord brake pads 2019",BP-ACM-002
+"ceramic brake honda accord",BP-ACM-002
+
+"premium brake accord 2016",BP-PRM-001
+"better brake pads accord",BP-PRM-001
+"pro brake honda accord 2015",BP-PRM-001
+
+"premium brake accord 2020",BP-PRM-002
+"pro brake accord 2021",BP-PRM-002
+"high quality brake accord",BP-PRM-002
+
+"rear brake accord 2016",BP-ACM-003
+"back brake pads accord",BP-ACM-003
+"rear ceramic accord",BP-ACM-003
+
+"rear brake accord 2020",BP-ACM-004
+"back brake accord 2019",BP-ACM-004
+"rear pad honda accord",BP-ACM-004
+
+"premium rear brake accord",BP-PRM-003
+"rear pro brake accord",BP-PRM-003
+
+"premium rear brake accord 2020",BP-PRM-004
+"rear high quality accord",BP-PRM-004
+
+"camry brake pad 2016",BP-ACM-010
+"front brake camry",BP-ACM-010
+"ceramic brake camry",BP-ACM-010
+
+"camry brake 2021",BP-ACM-011
+"front brake camry 2020",BP-ACM-011
+
+"premium camry brake",BP-PRM-010
+"pro brake camry 2016",BP-PRM-010
+
+"premium camry brake 2021",BP-PRM-011
+"high quality camry brake",BP-PRM-011
+
+"rear brake camry 2016",BP-ACM-012
+"back brake camry",BP-ACM-012
+
+"rear camry brake 2020",BP-ACM-013
+"back camry brake 2021",BP-ACM-013
+
+"premium rear camry",BP-PRM-012
+"rear pro camry",BP-PRM-012
+
+"premium rear camry 2020",BP-PRM-013
+"rear camry high quality",BP-PRM-013
+
+"oil filter honda accord",OF-ACM-100
+"accord oil filter 2017",OF-ACM-100
+"cheap oil filter accord",OF-ACM-100
+
+"premium oil filter accord",OF-PRM-100
+"better oil filter honda",OF-PRM-100
+
+"camry oil filter",OF-ACM-101
+"toyota oil filter",OF-ACM-101
+
+"premium camry oil filter",OF-PRM-101
+"better oil filter camry",OF-PRM-101
+
+"civic oil filter",OF-ACM-102
+"honda civic oil",OF-ACM-102
+
+"premium civic oil filter",OF-PRM-102
+"better oil civic",OF-PRM-102
+
+"corolla oil filter",OF-ACM-103
+"toyota corolla oil",OF-ACM-103
+
+"premium corolla oil filter",OF-PRM-103
+"better oil corolla",OF-PRM-103
+
+"altima oil filter",OF-ACM-104
+"nissan oil filter",OF-ACM-104
+
+"premium altima oil",OF-PRM-104
+"better oil altima",OF-PRM-104
+
+"f150 oil filter",OF-ACM-105
+"ford oil filter",OF-ACM-105
+
+"premium f150 oil filter",OF-PRM-105
+"better oil ford truck",OF-PRM-105
+
+"air filter accord",AF-ACM-200
+"engine air accord",AF-ACM-200
+
+"premium air filter accord",AF-PRM-200
+"better air filter accord",AF-PRM-200
+
+"camry air filter",AF-ACM-201
+"toyota air filter",AF-ACM-201
+
+"premium camry air",AF-PRM-201
+"better air camry",AF-PRM-201
+
+"civic air filter",AF-ACM-202
+"honda civic air",AF-ACM-202
+
+"premium civic air",AF-PRM-202
+"better air civic",AF-PRM-202
+
+"spark plug accord",SP-ACM-300
+"accord spark plug",SP-ACM-300
+
+"iridium spark accord",SP-PRM-300
+"premium spark accord",SP-PRM-300
+
+"camry spark plug",SP-ACM-301
+"toyota spark plug",SP-ACM-301
+
+"iridium spark camry",SP-PRM-301
+"premium camry spark",SP-PRM-301
